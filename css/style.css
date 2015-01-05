@@ -1,0 +1,101 @@
+/* -------------------------------------------------- General style --------------------------------------------------*/
+body {
+    margin: 0px;
+    background: #b5ffaa;
+}
+
+*:focus {
+    outline: none;
+}
+
+/* ------------------------------------------------- Style of header -------------------------------------------------*/
+header {
+    padding: 20px 50px;
+    background: #25803a;
+    border-bottom: 17px dotted #ffffff;
+    color: #ffffff;
+    font-family: Tahoma;
+}
+
+/* ------------------------------------------------ Style of container -----------------------------------------------*/
+#container {
+    width: 800px;
+    margin: 20px auto;
+}
+
+input {
+    margin: 5px 8px;
+    padding: 10px 55px;
+}
+
+input[type="button"] {
+    background: #25803a;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background: #008000;
+    box-shadow: 3px 3px 3px grey, inset 0px 0px 10px yellow;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------ Style of table -----------------------------------------------*/
+table {
+    width: 100%;
+    border: 2px solid #008000;
+    border-spacing: 0px;
+}
+
+th {
+    padding: 10px 15px;
+    background: #25803a;
+    color: #ffffff;
+    font-family: Tahoma;
+}
+
+th:last-child {
+    width: 200px;
+}
+
+td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #008000;
+    border-top: 1px solid #008000;
+    border-left: 1px dashed #000000;
+}
+
+td:first-child {
+     border-left: none;
+     text-align: center;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+#buttonAdd {
+    /*margin-left: -2px;*/
+}
+
+#tableAdd {
+    margin-top: 5px;
+}
+
+.inputLabel {
+    padding: 5px;
+    width: 50px;
+}
+
+.inputValue {
+    width: 100px;
+}
+
+.button {
+    padding: 10px;
+    width: 95px;
+    margin: 5px 0px 5px 12.5px;
+}
